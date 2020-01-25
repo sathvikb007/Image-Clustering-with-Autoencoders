@@ -12,10 +12,12 @@ have been widely used for the task of clustering, it is difficult for them to ha
 to having no predefined distance metrics and high dimensionality. To solve this problem, deep unsupervised
 feature learning methods, such as the autoencoder (AE), have been employed for image clustering. These
 autoencoders are used to reduce the dimensionality of images and learn useful features to improve clustering
-result. In this project, 
+results. In this project, 
 3 such types of autoencoders have been implemented: 
     1) A simple autoencoder (SAE) with one hidden layer
+    
     2) A deep autoencoder (DAE) with more than one hidden layer
+    
     3) A convolutional autoencoder(CAE)
     
 The project utilizes the fashion MNIST dataset - consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. The link to the dataset:

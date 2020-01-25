@@ -14,6 +14,7 @@ feature learning methods, such as the autoencoder (AE), have been employed for i
 autoencoders are used to reduce the dimensionality of images and learn useful features to improve clustering
 results. In this project, 
 3 such types of autoencoders have been implemented: 
+
     1) A simple autoencoder (SAE) with one hidden layer
     
     2) A deep autoencoder (DAE) with more than one hidden layer

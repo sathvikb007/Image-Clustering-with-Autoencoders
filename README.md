@@ -3,6 +3,8 @@
 An autoencoder is a neural network that is trained to attempt to copy its input to its output. Internally, it has a hidden layer that describes a code used torepresent the input. The network may be viewed as consisting of two parts: an encoder function h=f(x) and a decoder that produces a reconstruction r=g(h). If an autoencoder succeeds in simply learning to set g(f(x)) =x everywhere, then it is not especially useful. Instead, it is designed to learn useful properties of the dataset.
 
 Application : Image clustering
+
+
   Image clustering involves the process of mapping an archive image into a cluster such that
 the set of clusters has the same information. It is an important field of machine learning and computer
 vision. While traditional clustering methods, such as k-means or the agglomerative clustering method,
